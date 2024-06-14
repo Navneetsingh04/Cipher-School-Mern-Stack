@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./test.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1>My Heading 1</h1>
+    <h2>My Heading 2</h2>
+    <h3>My Heading 3</h3>
+    <h4>My Heading 4</h4>
+    <h5>My Heading 5</h5>
+    <h6>My Heading 6</h6>
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+    <a href="https://www.cipherschools.com">Go to Cipher Schools</a>
+    <img src="data:image/jpeg;base64,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" alt="Virat Kohli Image"> -->
+
+    <!-- <blockquote cite="https://en.wikipedia.org/wiki/Harry_Potter">Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's conflict with Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic, and subjugate all wizards and Muggles (non-magical people).</blockquote>
+    <q cite="https://en.wikipedia.org/wiki/Harry_Potter">Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's conflict with Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic, and subjugate all wizards and Muggles (non-magical people).</q>
+    <p><abbr title="World Health Organization">WHO</abbr> is agood organization.</p>
+    <button>Click Me</button> -->
+
+    <!-- <address>
+        Taught by Shantanu Shubham.<br>
+        Visit Me on LinkedIn: <br>
+    </address> -->
+
+    <!-- <h5>Unordered List:</h5>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <h5>Ordered List:</h5>
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <h5>Description List:</h5>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>-- his is a dark brown drink --</dd>
+        <dt>Tea</dt>
+        <dd>-- This is a white drink --</dd>
+    </dl> -->
+
+    <!-- <div>
+        <h1>This is test headline.</h1>
+        <p class="center-paragraph">This is <b><u>Shantanu</u></b>.<br>
+        Shantanu lives in <span style="color: red;">India</span>.</p>
+
+        <section>
+            <p>This is 2nd paragraph.</p>
+        </section>
+        <hr>
+    </div> -->
+
+    <p>Para 0</p>
+    <div>
+        <p>Para 1</p>
+        <p>Para 2</p>
+    </div>
+    <p>Para 3</p>
+    <p>Para 4</p>
+
+    <div>
+        <a href="https://cipherschools.com">Go to CipherSchools</a>
+        <a href="https://google.com" target="_blank">Go to Google</a>
+    </div>
+</body>
+</html>
