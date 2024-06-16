@@ -1,0 +1,13 @@
+document.write("Shantanu")
+document.writeIn("Shubham")
+
+document.cipherPara
+
+document.val
+  <form name="val">
+    <input name="name" value="Shantanu">
+  </form>
+document.val.name
+  <input name="name" value="Shantanu">
+docuent.val.name.value
+"Shantanu"
